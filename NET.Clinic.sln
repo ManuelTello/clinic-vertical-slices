@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{C5F17DF4-E2BE-43E3-BF60-1DE19A4A7BFE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NET.Clinic.API", "Source\NET.Clinic.API\NET.Clinic.API.csproj", "{05DB5112-4BCA-4356-BA0F-2817987F879C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{D9C2DD13-F516-4381-95F5-F8D388AF8D23}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NET.Clinic.Unitary", "Tests\NET.Clinic.Unitary\NET.Clinic.Unitary.csproj", "{66CFB400-C3DC-431A-AC1F-55666EE4BACE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{05DB5112-4BCA-4356-BA0F-2817987F879C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05DB5112-4BCA-4356-BA0F-2817987F879C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05DB5112-4BCA-4356-BA0F-2817987F879C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05DB5112-4BCA-4356-BA0F-2817987F879C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66CFB400-C3DC-431A-AC1F-55666EE4BACE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66CFB400-C3DC-431A-AC1F-55666EE4BACE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66CFB400-C3DC-431A-AC1F-55666EE4BACE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66CFB400-C3DC-431A-AC1F-55666EE4BACE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{05DB5112-4BCA-4356-BA0F-2817987F879C} = {C5F17DF4-E2BE-43E3-BF60-1DE19A4A7BFE}
+		{66CFB400-C3DC-431A-AC1F-55666EE4BACE} = {D9C2DD13-F516-4381-95F5-F8D388AF8D23}
+	EndGlobalSection
+EndGlobal
